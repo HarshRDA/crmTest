@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="11" failures="1" name="TestSuite" time="142.498" errors="0" skipped="2">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="FreeCrmTestJob"/>
+    <property name="PWD" value="/Users/harshkumar/Documents/Jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/harshkumar/.jenkins"/>
+    <property name="PATH" value="/Users/harshkumar/anaconda3/bin:/Users/harshkumar/.rvm/gems/ruby-2.4.2/bin:/Users/harshkumar/.rvm/gems/ruby-2.4.2@global/bin:/Users/harshkumar/.rvm/rubies/ruby-2.4.2/bin:/usr/local/Cellar/rabbitmq/3.7.4/sbin/:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin:/Users/harshkumar/Library/Android/sdk/tools:/Users/harshkumar/Library/Android/sdk/platform-tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/local/apache-maven-3.0.5/bin:/Users/harshkumar/.rvm/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="80879fceff85e8f9"/>
+    <property name="POM_ARTIFACTID" value="crmTest"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="Apple_Terminal"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="46BD0D8C-E84C-4027-92D3-886105DAE03C"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="crmTest"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="rvm_version" value="1.29.3 (latest)"/>
+    <property name="user.name" value="harshkumar"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="SECURITYSESSIONID" value="186a9"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="FreeCrmTestJob"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8081/job/FreeCrmTestJob/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="TMPDIR" value="/var/folders/mb/03f2dj9x3zz0y6mh76f68b200000gp/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="rvm_prefix" value="/Users/harshkumar"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.13.3"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8081/job/FreeCrmTestJob/2/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="GEM_HOME" value="/Users/harshkumar/.rvm/gems/ruby-2.4.2"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8081/job/FreeCrmTestJob/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="harshkumar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/harshkumar"/>
+    <property name="POM_GROUPID" value="crmTest"/>
+    <property name="user.home" value="/Users/harshkumar"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCrmTestJob-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="80879fceff85e8f9"/>
+    <property name="HUDSON_URL" value="http://localhost:8081/"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/Users/harshkumar/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="JAVA_MAIN_CLASS_15833" value="Main"/>
+    <property name="_system_arch" value="x86_64"/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.e3I5jwdWwR/Render"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="_system_version" value="10.13"/>
+    <property name="maven.home" value="/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven"/>
+    <property name="java.class.path" value="/Users/harshkumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/boot/plexus-classworlds-2.5.2.jar:/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven /Users/harshkumar/.jenkins/war/WEB-INF/lib/remoting-3.26.jar /Users/harshkumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /Users/harshkumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 57599"/>
+    <property name="IRBRC" value="/Users/harshkumar/.rvm/rubies/ruby-2.4.2/.irbrc"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="MY_RUBY_HOME" value="/Users/harshkumar/.rvm/rubies/ruby-2.4.2"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven"/>
+    <property name="java.io.tmpdir" value="/var/folders/mb/03f2dj9x3zz0y6mh76f68b200000gp/T/"/>
+    <property name="HUDSON_HOME" value="/Users/harshkumar/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven/bin"/>
+    <property name="RUBY_VERSION" value="ruby-2.4.2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8081/job/FreeCrmTestJob/2/"/>
+    <property name="OLDPWD" value="/Users/harshkumar/Documents"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.EuvlMfg29i/Listeners"/>
+    <property name="LC_CTYPE" value="UTF-8"/>
+    <property name="rvm_path" value="/Users/harshkumar/.rvm"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="rvm_bin_path" value="/Users/harshkumar/.rvm/bin"/>
+    <property name="_system_type" value="Darwin"/>
+    <property name="java.ext.dirs" value="/Users/harshkumar/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F6:0x0:0x0"/>
+    <property name="user.dir" value="/Users/harshkumar/Documents/practice/crmTest"/>
+    <property name="JOB_URL" value="http://localhost:8081/job/FreeCrmTestJob/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/Users/harshkumar/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Test_Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="ANDROID_HOME" value="/Users/harshkumar/Library/Android/sdk"/>
+    <property name="JENKINS_URL" value="http://localhost:8081/"/>
+    <property name="TERM_PROGRAM_VERSION" value="400"/>
+    <property name="_system_name" value="OSX"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/harshkumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="WORKSPACE" value="/Users/harshkumar/.jenkins/workspace/FreeCrmTestJob"/>
+    <property name="maven3.interceptor.common" value="/Users/harshkumar/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="GEM_PATH" value="/Users/harshkumar/.rvm/gems/ruby-2.4.2:/Users/harshkumar/.rvm/gems/ruby-2.4.2@global"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="USER" value="harshkumar"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="10.245"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="9.855"/>
+  <testcase classname="com.crm.qa.testcases.ContactsPageTest" name="validateCreateNewContact" time="8.613"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyHomePageTitleTest" time="0.036"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginPageTitleTest" time="0.009"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyUserNameTest" time="0.088"/>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLogoImageTest" time="0.042"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setup" time="33.878">
+    <failure message="unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (948, 214). Other element would receive the click: &lt;iframe allowfullscreen=&quot;&quot; class=&quot;intercom-borderless-frame&quot; name=&quot;intercom-borderless-frame&quot; title=&quot;Intercom Live Chat&quot; style=&quot;height: 334px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;MPB-harsh.local&apos;, ip: &apos;10.0.1.130&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/mb/03f2dj9x3zz...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4253b31e2aac4e905055df89dfb72d02" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (948, 214). Other element would receive the click: &lt;iframe allowfullscreen=&quot;&quot; class=&quot;intercom-borderless-frame&quot; name=&quot;intercom-borderless-frame&quot; title=&quot;Intercom Live Chat&quot; style=&quot;height: 334px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;MPB-harsh.local&apos;, ip: &apos;10.0.1.130&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/mb/03f2dj9x3zz...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4253b31e2aac4e905055df89dfb72d02
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:403)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:416)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:51)
+	at com.crm.qa.testcases.HomePageTest.setup(HomePageTest.java:37)
+</failure>
+    <system-out>Before navigating to: &apos;https://www.freecrm.com/index.html&apos;
+Navigated to:&apos;https://www.freecrm.com/index.html&apos;
+Trying to find Element By : By.name: username
+Found Element By : By.name: username
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //input[@class=&apos;btn btn-small&apos;]
+Found Element By : By.xpath: //input[@class=&apos;btn btn-small&apos;]
+Trying to click on: [[ChromeDriver: chrome on MAC (4253b31e2aac4e905055df89dfb72d02)] -&gt; xpath: //input[@class=&apos;btn btn-small&apos;]]
+Exception occured: org.openqa.selenium.WebDriverException: unknown error: Element &lt;input type=&quot;submit&quot; value=&quot;Login&quot; class=&quot;btn btn-small&quot;&gt; is not clickable at point (948, 214). Other element would receive the click: &lt;iframe allowfullscreen=&quot;&quot; class=&quot;intercom-borderless-frame&quot; name=&quot;intercom-borderless-frame&quot; title=&quot;Intercom Live Chat&quot; style=&quot;height: 334px;&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=69.0.3497.100)
+  (Driver info: chromedriver=2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363),platform=Mac OS X 10.13.3 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;MPB-harsh.local&apos;, ip: &apos;10.0.1.130&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.3&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565386 (45a059dc425e08..., userDataDir: /var/folders/mb/03f2dj9x3zz...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
+Session ID: 4253b31e2aac4e905055df89dfb72d02
+</system-out>
+    <system-err>Starting ChromeDriver 2.40.565386 (45a059dc425e08165f9a10324bd1380cc13ca363) on port 10974
+Only local connections are allowed.
+Sep 25, 2018 12:22:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifyContactsLinkTest" time="33.878">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="33.879">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="loginTest" time="11.975"/>
+</testsuite>
